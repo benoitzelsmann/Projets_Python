@@ -1,0 +1,299 @@
+{
+  "Crunch": {
+    "description": "Abdos de face simples, plus durs si on met les bras sur la t\u00eate",
+    "repetitions": [
+      20,
+      35
+    ],
+    "duree (s)": [
+      null,
+      null
+    ]
+  },
+  "Abdos lat\u00e9raux": {
+    "description": "Abdos mais vers les c\u00f4t\u00e9s, il faut mettre les bras derri\u00e8re la tete et venir faire toucher le coude au genou oppos\u00e9 \u00e0 chaque r\u00e9p\u00e9tition",
+    "repetitions": [
+      20,
+      40
+    ],
+    "duree (s)": [
+      null,
+      null
+    ]
+  },
+  "Chandelles": {
+    "description": "Allong\u00e9 au sol, il faut lever les jambes vers le ciel puis redescendre en ralentissant la descente",
+    "repetitions": [
+      10,
+      20
+    ],
+    "duree (s)": [
+      null,
+      null
+    ]
+  },
+  "Gainage planche": {
+    "description": "Gainage planche simple, de face et sur les coudes",
+    "repetitions": [
+      null,
+      null
+    ],
+    "duree (s)": [
+      30,
+      60
+    ]
+  },
+  "Gainage deux c\u00f4t\u00e9": {
+    "description": "Gainage \u00e0 r\u00e9aliser du c\u00f4t\u00e9 gauche puis coté droit, sur un coude avec une jambe au dessus de l'autre",
+    "repetitions": [
+      null,
+      null
+    ],
+    "duree (s)": [
+      30,
+      60
+    ]
+  },
+  "Gainage dorsal": {
+    "description": "Gainage \u00e0 r\u00e9aliser sur le dos, deux possibilit\u00e9s, comme la planche mais \u00e0 l'envers ou bras tendus et genoux pli\u00e9s (pont carr\u00e9)",
+    "repetitions": [
+      null,
+      null
+    ],
+    "duree (s)": [
+      30,
+      60
+    ]
+  },
+  "Cuill\u00e8re": {
+    "description": "Gainage en se tenant en cuill\u00e8re sur les fesses",
+    "repetitions": [
+      null,
+      null
+    ],
+    "duree (s)": [
+      15,
+      45
+    ]
+  },
+  "Cuill\u00e8re + poids": {
+    "description": "Gainage cuill\u00e8re mais en faisant passer un poids de chaque c\u00f4t\u00e9 de soi \u00e0 chaque r\u00e9p\u00e9tition",
+    "repetitions": [
+      20,
+      40
+    ],
+    "duree (s)": [
+      null,
+      null
+    ]
+  },
+  "Commandos": {
+    "description": "Mouvement dans la position gainage, passer de bras tendus aux coudes \u00e0 chaque r\u00e9p\u00e9tition, un bras apr\u00e8s l'autre",
+    "repetitions": [
+      20,
+      40
+    ],
+    "duree (s)": [
+      null,
+      null
+    ]
+  },
+  "Halt\u00e8res de face": {
+    "description": "Un halt\u00e8re dans chaque bras, et bras droit devant soi, monter les halt\u00e8res l'une apr\u00e8s l'autre jusqu'\u00e0 l'\u00e9paule",
+    "repetitions": [
+      20,
+      40
+    ],
+    "duree (s)": [
+      null,
+      null
+    ]
+  },
+  "Halt\u00e8res sur chaise": {
+    "description": "Se poitionner sur une chaise et faire pendre un halt\u00e8re de chaque c\u00f4t\u00e9, tenir les halt\u00e8res dans l'axe des jambes et les lever jusqu'\u00e0 l'\u00e9paule",
+    "repetitions": [
+      20,
+      40
+    ],
+    "duree (s)": [
+      null,
+      null
+    ]
+  },
+  "hal\u00e8res \u00e0 deux bras": {
+    "description": "Tenir un halt\u00e8re devant soi avec les deux bras et la monter en positionnant ses coudes vers les c\u00f4t\u00e9s, lever le plus haut possible (au niveau du cou)",
+    "repetitions": [
+      10,
+      30
+    ],
+    "duree (s)": [
+      null,
+      null
+    ]
+  },
+  "Pompes arri\u00e8res": {
+    "description": "Position assise en l'air mais positionner les bras sur un banc/lit et tendre les jambes vers l'avant, monter et descendre ensuite le corps avec les bras",
+    "repetitions": [
+      15,
+      30
+    ],
+    "duree (s)": [
+      null,
+      null
+    ]
+  },
+  "Pompes": {
+    "description": "Pas besoin d'expliquer tu vas souffrir (fais \u00e7a sur les genoux)",
+    "repetitions": [
+      10,
+      20
+    ],
+    "duree (s)": [
+      null,
+      null
+    ]
+  },
+  "Halt\u00e8res au dessus de la t\u00eate": {
+    "description": "Lever les halt\u00e8res au dessus de la t\u00eate et les faire redescendre vers les \u00e9paules",
+    "repetitions": [
+      10,
+      20
+    ],
+    "duree (s)": [
+      null,
+      null
+    ]
+  },
+  "Squats": {
+    "description": "Plier les jambes et descendre jusqu'en bas ",
+    "repetitions": [
+      15,
+      30
+    ],
+    "duree (s)": [
+      null,
+      null
+    ]
+  },
+  "Squats-saut\u00e9s": {
+    "description": "Faire des squats dynamiques et essayer de d\u00e9coller les pieds",
+    "repetitions": [
+      10,
+      20
+    ],
+    "duree (s)": [
+      null,
+      null
+    ]
+  },
+  "Fentes": {
+    "description": "Depuis la position assise, avancer une jambe puis l'autre jusqu'a faire toucher le genou de l'autre jambe au sol",
+    "repetitions": [
+      10,
+      30
+    ],
+    "duree (s)": [
+      null,
+      null
+    ]
+  },
+  "Chaise": {
+    "description": "Position genoux pli\u00e9s et jambes contre le mur",
+    "repetitions": [
+      null,
+      null
+    ],
+    "duree (s)": [
+      20,
+      45
+    ]
+  },
+  "Mont\u00e9\u00e9 sur banc": {
+    "description": "Se positionner debout et monter \u00e0 l'aide d'une jambe puis l'autre sur un banc par exemple",
+    "repetitions": [
+      10,
+      30
+    ],
+    "duree (s)": [
+      null,
+      null
+    ]
+  },
+  "Mont\u00e9es de genoux": {
+    "description": "Faire des mont\u00e9es de genoux sur place",
+    "repetitions": [
+      null,
+      null
+    ],
+    "duree (s)": [
+      20,
+      45
+    ]
+  },
+  "Corde \u00e0 sauter": {
+    "description": "Faire de la corde \u00e0 sauter, ou des petits sauts si tu n'en as pas ",
+    "repetitions": [
+      null,
+      null
+    ],
+    "duree (s)": [
+      20,
+      40
+    ]
+  },
+  "Ischos": {
+    "description": "S'allonger au sol sur le dos et mettre les deux jambes sur un banc, lever ensuite les fesses vers le ciel",
+    "repetitions": [
+      10,
+      30
+    ],
+    "duree (s)": [
+      null,
+      null
+    ]
+  },
+  "Jumping-jacks": {
+    "description": "Debout, sauter en \u00e9cartant les jambes et resserant les bras vers le haut, inverser ensuite les deux ",
+    "repetitions": [
+      10,
+      30
+    ],
+    "duree (s)": [
+      null,
+      null
+    ]
+  },
+  "Burpees": {
+    "description": "Faire une pompe, se lever et sauter en levant les bras, redescendre ensuite faire une pompe et ainsi de suite",
+    "repetitions": [
+      10,
+      20
+    ],
+    "duree (s)": [
+      null,
+      null
+    ]
+  },
+  "gainage + montee de jambes": {
+    "description": "Se mettre en position gainage, lever ensuite une jambe puis l'autre vers le ciel, pour travailler les fesses.",
+    "repetitions": [
+      null,
+      null
+    ],
+    "duree (s)": [
+      30,
+      45
+    ]
+  },
+  "halt\u00e8res-\u00e9paules": {
+    "description": "Se positionner en croix comme Jesus avec des halt\u00e8res dans les mains et descendre les bras puis les remonter ainsi de suite",
+    "repetitions": [
+      15,
+      30
+    ],
+    "duree (s)": [
+      null,
+      null
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "abdos": [
+    "Crunch",
+    "Abdos lat\u00e9raux",
+    "Chandelles",
+    "Gainage planche",
+    "Gainage deux c\u00f4t\u00e9",
+    "Gainage dorsal",
+    "Cuill\u00e8re",
+    "Cuill\u00e8re + poids",
+    "Commandos"
+  ],
+  "biceps": [
+    "Halt\u00e8res de face",
+    "Halt\u00e8res sur chaise",
+    "hal\u00e8res \u00e0 deux bras"
+  ],
+  "triceps": [
+    "Pompes arri\u00e8res",
+    "Pompes",
+    "Halt\u00e8res au dessus de la t\u00eate"
+  ],
+  "jambes": [
+    "Squats",
+    "Squats-saut\u00e9s",
+    "Fentes",
+    "Chaise",
+    "Mont\u00e9\u00e9 sur banc",
+    "Mont\u00e9es de genoux",
+    "Corde \u00e0 sauter",
+    "Ischos"
+  ],
+  "divers": [
+    "Jumping-jacks",
+    "Burpees",
+    "gainage + montee de jambes",
+    "halt\u00e8res-\u00e9paules"
+  ]
+}
