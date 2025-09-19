@@ -1,0 +1,46 @@
+import requests
+from datetime import datetime, timedelta, timezone
+
+
+class Meteo:
+    def __init__(self):
+        self.WEATHER_KEY = "cbc2e1ecf506311714fb01d01dfd3bec"
+        self.CITY = "Stockholm"
+        self.UNITS = "metric"
+        self.LANG = "en"
+
+    def alert_daytime(self):
+        url = f"https://api.openweathermap.org/data/2.5/forecast?q={self.CITY}&appid={self.WEATHER_KEY}&units={self.UNITS}&lang={self.LANG}"
+        resp = requests.get(url)
+        data = resp.json()
+
+        tomorrow = (datetime.now(timezone.utc) + timedelta(days=1)).date()
+
+        forecasts = [entry for entry in data["list"] if datetime.fromtimestamp(entry["dt"]).date() == tomorrow]
+
+        if not forecasts:
+            return "No forecast for tomorrow."
+
+        alerts = []
+
+        for entry in forecasts:
+            dt_local = datetime.fromtimestamp(entry["dt"])
+            hour = dt_local.hour
+            if 6 <= hour <= 20:  # filtrer entre 6h et 20h
+                pluie = entry.get("rain", {}).get("3h", 0)
+                neige = entry.get("snow", {}).get("3h", 0)
+
+                if pluie > 0:
+                    alerts.append(f"🌧️ Rain at {dt_local.strftime('%H:%M')} - {pluie} mm")
+                if neige > 0:
+                    alerts.append(f"❄️ Snow at {dt_local.strftime('%H:%M')} - {neige} mm")
+
+        if not alerts:
+            return "☀️ No rain/snow expected tomorrow."
+
+        return "".join(alerts)
+
+
+if __name__ == "__main__":
+    meteo = Meteo()
+    print(meteo.alert_daytime())
