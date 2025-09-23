@@ -1,5 +1,6 @@
-import requests
 from datetime import datetime, timedelta, timezone
+
+import requests
 
 
 class Meteo:
@@ -9,12 +10,12 @@ class Meteo:
         self.UNITS = "metric"
         self.LANG = "en"
 
-    def alert_daytime(self):
+    def alert_daytime(self, delay):
         url = f"https://api.openweathermap.org/data/2.5/forecast?q={self.CITY}&appid={self.WEATHER_KEY}&units={self.UNITS}&lang={self.LANG}"
         resp = requests.get(url)
         data = resp.json()
 
-        tomorrow = (datetime.now(timezone.utc) + timedelta(days=1)).date()
+        tomorrow = (datetime.now(timezone.utc) + timedelta(days=delay)).date()
 
         forecasts = [entry for entry in data["list"] if datetime.fromtimestamp(entry["dt"]).date() == tomorrow]
 
@@ -43,4 +44,5 @@ class Meteo:
 
 if __name__ == "__main__":
     meteo = Meteo()
-    print(meteo.alert_daytime())
+    for i in range(10):
+        print(meteo.alert_daytime(i))

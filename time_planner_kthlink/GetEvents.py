@@ -4,6 +4,7 @@ from RoomFinder import RoomFinder
 import pytz
 import requests
 from icalendar import Calendar
+import json, os
 
 
 class GetEvents:
@@ -81,7 +82,7 @@ class GetEvents:
             room_url, map_url = (None, None)
             if location and location != "No place":
                 try:
-                    room_url, map_url = self.room_finder.room_find(location)
+                    room_url, map_url = self.room_finder.find_room_json(location)
                 except Exception:
                     pass
 

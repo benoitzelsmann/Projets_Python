@@ -12,6 +12,5 @@ def main():
     notifier.notify(events + "\n\n" + alert)
 
 
-
 if __name__ == "__main__":
-    main()
+        main()
