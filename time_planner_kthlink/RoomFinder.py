@@ -1,7 +1,7 @@
 import json
 
-import requests
-from bs4 import BeautifulSoup
+# import requests
+# from bs4 import BeautifulSoup
 
 
 class RoomFinder:
@@ -45,12 +45,12 @@ class RoomFinder:
             return map_link["href"].replace("http", "https")
         return None
 
-    def room_find_kth_server(self, room: str) -> tuple | None:
-
-        url = self.find_room_url(room)
-        map_url = self.get_room_map(url)
-
-        return url, map_url
+    # def room_find_kth_server(self, room: str) -> tuple | None:
+    #
+    #     url = self.find_room_url(room)
+    #     map_url = self.get_room_map(url)
+    #
+    #     return url, map_url
 
     def find_room_json(self, room: str) -> tuple | None:
         return self.room_map[room]["room_url"], self.room_map[room]["map_url"]

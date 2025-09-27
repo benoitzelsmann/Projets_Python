@@ -4,7 +4,6 @@ from RoomFinder import RoomFinder
 import pytz
 import requests
 from icalendar import Calendar
-import json, os
 
 
 class GetEvents:

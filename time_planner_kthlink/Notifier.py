@@ -30,14 +30,13 @@ class Notifier:
 
     def notify(self, message):
         url = f"https://api.telegram.org/bot{self.TOKEN}/sendMessage"
+
         params = {"chat_id": self.CHAT_ID,
-                  "text": "-",
+                  "text": message,
                   "parse_mode": "Markdown",
                   "disable_web_page_preview": True}
 
 
-        requests.post(url, params=params)
-        params["text"] = message
         resp = requests.post(url, params=params)
         # self.save_to_history(resp.json())
 
