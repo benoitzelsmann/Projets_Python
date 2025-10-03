@@ -1,3 +1,4 @@
+import json
 from datetime import datetime, time, timedelta
 
 import pytz
@@ -7,10 +8,15 @@ from icalendar import Calendar
 
 class GetEvents:
     def __init__(self):
+
         self.calendar_link = "https://calendar.google.com/calendar/ical/scube14lja2ootld66l9h7c0896sjg8p%40import.calendar.google.com/public/basic.ics"
         self.response = requests.get(self.calendar_link)
         self.calendar = Calendar.from_ical(self.response.content)
         self.tz = pytz.timezone("Europe/Paris")
+
+        self.room_map = None
+        with open("rooms.json", "r", encoding="utf-8") as f:
+            self.room_map = json.load(f)
 
     @staticmethod
     def shorten_title(title: str) -> str:
@@ -97,7 +103,7 @@ class GetEvents:
             room_url, map_url = (None, None)
             if location and location != "No place":
                 try:
-                    room_url, map_url = self.room_finder.find_room_json(location)
+                    room_url, map_url = self.find_room_json(location)
                 except Exception:
                     pass
 
@@ -152,10 +158,9 @@ class GetEvents:
         return "\n".join(lines) + "\n"
 
     def find_room_json(self, room: str) -> tuple | None:
+
         return self.room_map[room]["room_url"], self.room_map[room]["map_url"]
 
     def get_events_delay(self, delay: int) -> str:
         return self.get_events_day(datetime.now() + timedelta(days=delay))
 
-    def update_room_dict(self):
-        pass

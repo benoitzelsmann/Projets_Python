@@ -32,9 +32,9 @@ class Meteo:
                 neige = entry.get("snow", {}).get("3h", 0)
 
                 if pluie > 0:
-                    alerts.append(f"🌧️ Rain at {dt_local.strftime('%H:%M')} - {pluie} mm")
+                    alerts.append(f"🌧️ Rain at {dt_local.strftime('%H:%M')} - {pluie} mm \n")
                 if neige > 0:
-                    alerts.append(f"❄️ Snow at {dt_local.strftime('%H:%M')} - {neige} mm")
+                    alerts.append(f"❄️ Snow at {dt_local.strftime('%H:%M')} - {neige} mm \n")
 
         if not alerts:
             return "☀️ No rain/snow expected tomorrow."
