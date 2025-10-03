@@ -1,5 +1,4 @@
 from datetime import datetime, time, timedelta
-from RoomFinder import RoomFinder
 
 import pytz
 import requests
@@ -11,8 +10,7 @@ class GetEvents:
         self.calendar_link = "https://calendar.google.com/calendar/ical/scube14lja2ootld66l9h7c0896sjg8p%40import.calendar.google.com/public/basic.ics"
         self.response = requests.get(self.calendar_link)
         self.calendar = Calendar.from_ical(self.response.content)
-        self.tz = pytz.timezone('Europe/Paris')
-        self.room_finder = RoomFinder()
+        self.tz = pytz.timezone("Europe/Paris")
 
     @staticmethod
     def shorten_title(title: str) -> str:
@@ -36,11 +34,13 @@ class GetEvents:
 
     @staticmethod
     def extract_type(summary: str) -> str:
-        mapping = {"foreläsning": "CM",
-                   "övning": "TD",
-                   "exercice": "TD",
-                   "lecture": "CM",
-                   "laboration": "LAB"}
+        mapping = {
+            "foreläsning": "CM",
+            "övning": "TD",
+            "exercice": "TD",
+            "lecture": "CM",
+            "laboration": "LAB",
+        }
         for key, value in mapping.items():
             if key in summary.lower():
                 return value
@@ -54,11 +54,17 @@ class GetEvents:
         events_in_day = []
 
         for ev in self.calendar.walk("VEVENT"):
-            start = ev.decoded('dtstart')
-            end = ev.decoded('dtend')
+            start = ev.decoded("dtstart")
+            end = ev.decoded("dtend")
 
-            start = self.tz.localize(start) if start.tzinfo is None else start.astimezone(self.tz)
-            end = self.tz.localize(end) if end.tzinfo is None else end.astimezone(self.tz)
+            start = (
+                self.tz.localize(start)
+                if start.tzinfo is None
+                else start.astimezone(self.tz)
+            )
+            end = (
+                self.tz.localize(end) if end.tzinfo is None else end.astimezone(self.tz)
+            )
 
             if start <= end_of_day and end >= start_of_day:
                 events_in_day.append(ev)
@@ -70,13 +76,23 @@ class GetEvents:
     def decode_events(self, events) -> list:
         decoded = []
         for ev in events:
-            summary = self.safe_decode(ev.decoded('summary'))
-            start = ev.decoded('dtstart')
-            end = ev.decoded('dtend')
-            start = self.tz.localize(start) if start.tzinfo is None else start.astimezone(self.tz)
-            end = self.tz.localize(end) if end.tzinfo is None else end.astimezone(self.tz)
+            summary = self.safe_decode(ev.decoded("summary"))
+            start = ev.decoded("dtstart")
+            end = ev.decoded("dtend")
+            start = (
+                self.tz.localize(start)
+                if start.tzinfo is None
+                else start.astimezone(self.tz)
+            )
+            end = (
+                self.tz.localize(end) if end.tzinfo is None else end.astimezone(self.tz)
+            )
 
-            location = self.safe_decode(ev.decoded('location')) if ev.get('location') else "No place"
+            location = (
+                self.safe_decode(ev.decoded("location"))
+                if ev.get("location")
+                else "No place"
+            )
 
             room_url, map_url = (None, None)
             if location and location != "No place":
@@ -85,16 +101,22 @@ class GetEvents:
                 except Exception:
                     pass
 
-            decoded.append({
-                "Title": self.shorten_title(summary),
-                "Type": self.extract_type(summary),
-                "Location": location,
-                "RoomURL": room_url,
-                "MapURL": map_url,
-                "Start": start,
-                "End": end,
-                "Description": self.safe_decode(ev.decoded('description')) if ev.get('description') else ""
-            })
+            decoded.append(
+                {
+                    "Title": self.shorten_title(summary),
+                    "Type": self.extract_type(summary),
+                    "Location": location,
+                    "RoomURL": room_url,
+                    "MapURL": map_url,
+                    "Start": start,
+                    "End": end,
+                    "Description": (
+                        self.safe_decode(ev.decoded("description"))
+                        if ev.get("description")
+                        else ""
+                    ),
+                }
+            )
 
         return decoded
 
@@ -105,7 +127,11 @@ class GetEvents:
 
         lines = [f"*📅 {day.strftime('%A %d %B %Y')}*\n"]
         for ev in events:
-            title_line = f"➡️ [[{ev['Type']}]] *{ev['Title']}*" if ev['Type'] else f"➡️ *{ev['Title']}*"
+            title_line = (
+                f"➡️ [[{ev['Type']}]] *{ev['Title']}*"
+                if ev["Type"]
+                else f"➡️ *{ev['Title']}*"
+            )
 
             # Lieu : avec lien cliquable et maps
             if ev["RoomURL"]:
@@ -120,10 +146,16 @@ class GetEvents:
                 f"   🕒 *{ev['Start'].strftime('%H:%M')}* - *{ev['End'].strftime('%H:%M')}*\n"
                 f"   📍 {loc_line}\n"
             )
-            if ev['Description'].strip():
+            if ev["Description"].strip():
                 block += f"   📝 [Course Info]({ev['Description'].splitlines()[0]})\n"
             lines.append(block)
         return "\n".join(lines) + "\n"
 
+    def find_room_json(self, room: str) -> tuple | None:
+        return self.room_map[room]["room_url"], self.room_map[room]["map_url"]
+
     def get_events_delay(self, delay: int) -> str:
         return self.get_events_day(datetime.now() + timedelta(days=delay))
+
+    def update_room_dict(self):
+        pass
