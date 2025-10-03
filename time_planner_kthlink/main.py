@@ -8,7 +8,7 @@ def main():
     notifier = Notifier()
     meteo = Meteo()
 
-    delay = 3
+    delay = 1
 
     events = time_planner.get_events_delay(delay)
     alert = meteo.alert_daytime(delay)
