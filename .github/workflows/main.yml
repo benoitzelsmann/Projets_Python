@@ -33,5 +33,6 @@ jobs:
 
       # 4. Exécuter ton script
       - name: Run Python script
-        run: python time_planner_kthlink/main.py
         working-directory: time_planner_kthlink
+        run: python time_planner_kthlink/main.py
+        
