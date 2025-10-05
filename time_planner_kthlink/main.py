@@ -3,7 +3,8 @@ from Notifier import Notifier
 from Meteo import Meteo
 
 
-def main():
+def main() -> None:
+    """Point d'entrée: récupère événements et météo puis envoie une notification."""
     time_planner = GetEvents()
     notifier = Notifier()
     meteo = Meteo()

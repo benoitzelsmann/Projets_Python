@@ -5,12 +5,14 @@ import requests
 
 class Meteo:
     def __init__(self):
+        """Initialise le client météo pour la ville configurée."""
         self.WEATHER_KEY = "cbc2e1ecf506311714fb01d01dfd3bec"
         self.CITY = "Stockholm"
         self.UNITS = "metric"
         self.LANG = "en"
 
-    def alert_daytime(self, delay):
+    def alert_daytime(self, delay: int) -> str:
+        """Génère des alertes pluie/neige pour la journée cible (06:00-20:00)."""
         url = f"https://api.openweathermap.org/data/2.5/forecast?q={self.CITY}&appid={self.WEATHER_KEY}&units={self.UNITS}&lang={self.LANG}"
         resp = requests.get(url)
         data = resp.json()

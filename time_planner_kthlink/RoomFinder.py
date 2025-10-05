@@ -1,6 +1,6 @@
 import json
 from GetEvents import GetEvents
-from datetime import datetime, time, timedelta
+from datetime import datetime, timedelta
 
 import requests
 from bs4 import BeautifulSoup
@@ -8,52 +8,52 @@ from bs4 import BeautifulSoup
 
 class RoomFinder:
     def __init__(self):
+        """Initialise l'outil de recherche de salles."""
         self.getevents = GetEvents()
 
     @staticmethod
     def find_room_url(room_name: str) -> str | None:
+        """Trouve l'URL de la page KTH d'une salle à partir de son nom."""
         clean_name = room_name.split(",")[0].strip()
-    
+
         search_url = (
             f"https://www.kth.se/search?q={clean_name}"
             "&entityFilter=kth-place&filterLabel=Facilities&lang=en&btnText="
         )
-    
+
         response = requests.get(search_url)
         if response.status_code != 200:
             return None
-    
+
         soup = BeautifulSoup(response.text, "html.parser")
-    
+
         link = soup.find("a", href=lambda h: h and "/places/room/id/" in h)
-    
+
         return link["href"] if link else None
     
     @staticmethod
     def get_room_map(room_url: str) -> str | None:
-    
+        """Récupère le lien Google Maps associé à une salle depuis sa page KTH."""
         response = requests.get(room_url)
         if response.status_code != 200:
             return None
-    
+
         soup = BeautifulSoup(response.text, "html.parser")
-    
+
         map_link = soup.find("a", href=lambda h: h and "google.com/maps" in h)
         if map_link:
             return map_link["href"].replace("http", "https")
         return None
 
     def room_find_kth_server(self, room: str) -> tuple | None:
-    
+        """Trouve l'URL de la salle et son lien Google Maps en interrogeant KTH."""
         url = self.find_room_url(room)
         map_url = self.get_room_map(url)
-    
+
         return url, map_url
 
-    def update_rooms(self):
-
-
-
+    def update_rooms(self) -> None:
+        """Met à jour le fichier rooms.json avec les salles rencontrées dans le calendrier."""
         with open("rooms.json", "r") as rooms_file:
             rooms = json.load(rooms_file)
 

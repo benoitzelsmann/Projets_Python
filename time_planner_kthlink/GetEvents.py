@@ -8,7 +8,11 @@ from icalendar import Calendar
 
 class GetEvents:
     def __init__(self):
+        """Initialise le gestionnaire d'événements.
 
+        Cette méthode charge le calendrier public, configure le fuseau horaire
+        et lit la correspondance des salles depuis rooms.json.
+        """
         self.calendar_link = "https://calendar.google.com/calendar/ical/scube14lja2ootld66l9h7c0896sjg8p%40import.calendar.google.com/public/basic.ics"
         self.response = requests.get(self.calendar_link)
         self.calendar = Calendar.from_ical(self.response.content)
@@ -20,6 +24,7 @@ class GetEvents:
 
     @staticmethod
     def shorten_title(title: str) -> str:
+        """Raccourcit un intitulé de cours selon une table de correspondance."""
         mapping = {
             "IL2246": "Analog and Digital Electronics",
             "EJ2301": "Power Electronics",
@@ -30,7 +35,8 @@ class GetEvents:
         return title
 
     @staticmethod
-    def safe_decode(value) -> str:
+    def safe_decode(value: object) -> str:
+        """Convertit de manière sûre une valeur en chaîne de caractères."""
         if isinstance(value, bytes):
             try:
                 return value.decode("utf-8")
@@ -40,6 +46,7 @@ class GetEvents:
 
     @staticmethod
     def extract_type(summary: str) -> str:
+        """Déduit le type de séance à partir d'un résumé."""
         mapping = {
             "foreläsning": "CM",
             "övning": "TD",
@@ -53,6 +60,7 @@ class GetEvents:
         return ""
 
     def events_of_day(self, day: datetime) -> list:
+        """Retourne les événements présents sur un jour donné."""
         if day is None:
             day = datetime.now()
         start_of_day = self.tz.localize(datetime.combine(day.date(), time.min))
@@ -79,7 +87,8 @@ class GetEvents:
 
         return events_in_day
 
-    def decode_events(self, events) -> list:
+    def decode_events(self, events: list) -> list:
+        """Décode les événements iCalendar en dictionnaires Python prêts à afficher."""
         decoded = []
         for ev in events:
             summary = self.safe_decode(ev.decoded("summary"))
@@ -127,6 +136,7 @@ class GetEvents:
         return decoded
 
     def get_events_day(self, day: datetime) -> str:
+        """Formate les événements d'un jour en texte Markdown."""
         events = self.decode_events(self.events_of_day(day))
         if not events:
             return f"*No events found for {day.strftime('%A %d %B %Y')}*"
@@ -158,9 +168,10 @@ class GetEvents:
         return "\n".join(lines) + "\n"
 
     def find_room_json(self, room: str) -> tuple | None:
-
+        """Retrouve les URL associées à une salle depuis rooms.json."""
         return self.room_map[room]["room_url"], self.room_map[room]["map_url"]
 
     def get_events_delay(self, delay: int) -> str:
+        """Renvoie le texte des événements avec un décalage en jours."""
         return self.get_events_day(datetime.now() + timedelta(days=delay))
 

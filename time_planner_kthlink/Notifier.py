@@ -3,12 +3,14 @@ import requests
 
 class Notifier:
     def __init__(self):
+        """Initialise le système de notification Telegram."""
         self.TOKEN = "8317589831:AAFAUc1MguxezYzlSLjazDegdyW-O2eGaLw"
         self.CHAT_ID = "7954099904"
         self.history_filename = "history.json"
         pass
 
-    def __str__(self):
+    def __str__(self) -> str:
+        """Retourne une représentation textuelle des attributs de l'instance."""
         res = str(type(self).__name__).upper() + '\n'
         for (key, value) in vars(self).items():
             res += f'{key} : {value}\n'
@@ -28,14 +30,14 @@ class Notifier:
     #     with open(self.history_filename, 'w') as file:
     #         json.dump(data, file, indent=4)
 
-    def notify(self, message):
+    def notify(self, message: str) -> None:
+        """Envoie un message via l'API Telegram."""
         url = f"https://api.telegram.org/bot{self.TOKEN}/sendMessage"
 
         params = {"chat_id": self.CHAT_ID,
                   "text": message,
                   "parse_mode": "Markdown",
                   "disable_web_page_preview": True}
-
 
         resp = requests.post(url, params=params)
         # self.save_to_history(resp.json())
