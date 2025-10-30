@@ -1,0 +1,566 @@
+{
+  "No place": {
+    "room_url": null,
+    "map_url": null
+  },
+  "A2": {
+    "room_url": "https://www.kth.se/places/room/id/80bc1697-057a-4a20-a908-afc5d338d0ef",
+    "map_url": "https://www.google.com/maps/place/59.35396,18.065093/&zoom=17"
+  },
+  "B1": {
+    "room_url": "https://www.kth.se/places/room/id/ebcd08e4-7546-4f18-9ac7-3b38412a25e6",
+    "map_url": "https://www.google.com/maps/place/59.351594,18.068559/&zoom=17"
+  },
+  "V01": {
+    "room_url": "https://www.kth.se/places/room/id/2446d268-83f7-4072-ab1f-dbb2fff723f8",
+    "map_url": "https://www.google.com/maps/place/59.351143,18.071363/&zoom=17"
+  },
+  "XW344": {
+    "room_url": "https://www.kth.se/places/room/id/953a8699-6242-42e3-b52e-c592e62c8c24",
+    "map_url": "https://www.google.com/maps/place/59.350698,18.070479/&zoom=17"
+  },
+  "Baltzar": {
+    "room_url": "https://www.kth.se/places/room/id/568abf74-0a1f-451b-832a-41a2bb90095c",
+    "map_url": "https://www.google.com/maps/place/59.351143,18.071363/&zoom=17"
+  },
+  "D4448": {
+    "room_url": "https://www.kth.se/places/room/id/9d93adf6-2e51-4155-87fd-8b805451ffa1",
+    "map_url": "https://www.google.com/maps/place/59.346807,18.073872/&zoom=17"
+  },
+  "B2": {
+    "room_url": "https://www.kth.se/places/room/id/4a5e9e92-d7aa-486d-8503-b91b331d1662",
+    "map_url": "https://www.google.com/maps/place/59.351594,18.068559/&zoom=17"
+  },
+  "B3": {
+    "room_url": "https://www.kth.se/places/room/id/79cef4d7-7d64-4688-bd80-9d4c1d441680",
+    "map_url": "https://www.google.com/maps/place/59.351594,18.068559/&zoom=17"
+  },
+  "B21": {
+    "room_url": "https://www.kth.se/places/room/id/b35943bf-b28c-4ef8-b651-630fb141ce6d",
+    "map_url": "https://www.google.com/maps/place/59.351594,18.068559/&zoom=17"
+  },
+  "B22": {
+    "room_url": "https://www.kth.se/places/room/id/75545498-2628-4db2-8588-de17f775ee8b",
+    "map_url": "https://www.google.com/maps/place/59.351594,18.068559/&zoom=17"
+  },
+  "B23": {
+    "room_url": "https://www.kth.se/places/room/id/6cc0138d-24d7-40ce-bf50-522a1c96841b",
+    "map_url": "https://www.google.com/maps/place/59.351594,18.068559/&zoom=17"
+  },
+  "B24": {
+    "room_url": "https://www.kth.se/places/room/id/6172f39f-9c44-4ba0-86c6-965997d0393d",
+    "map_url": "https://www.google.com/maps/place/59.351594,18.068559/&zoom=17"
+  },
+  "B25": {
+    "room_url": "https://www.kth.se/places/room/id/cc409d39-51a2-450e-a1fa-3decae5d8b98",
+    "map_url": "https://www.google.com/maps/place/59.351594,18.068559/&zoom=17"
+  },
+  "B26": {
+    "room_url": "https://www.kth.se/places/room/id/601f1f44-c8a3-4731-9853-121105648c0d",
+    "map_url": "https://www.google.com/maps/place/59.351594,18.068559/&zoom=17"
+  },
+  "C1": {
+    "room_url": "https://www.kth.se/places/room/id/7f5c4733-45a0-4dd8-be36-0c28a191e5ed",
+    "map_url": "https://www.google.com/maps/place/59.201794,17.619933/&zoom=17"
+  },
+  "C2": {
+    "room_url": "https://www.kth.se/places/room/id/f6ce38dc-9812-4133-a68e-4e454e185b8f",
+    "map_url": "https://www.google.com/maps/place/59.201794,17.619933/&zoom=17"
+  },
+  "C11": {
+    "room_url": "https://www.kth.se/places/room/id/3a2570e0-536d-49bc-ade9-c0389528a559",
+    "map_url": "https://www.google.com/maps/place/59.201794,17.619933/&zoom=17"
+  },
+  "C12": {
+    "room_url": "https://www.kth.se/places/room/id/af166c72-ed11-4e13-b32a-1ae6d0a3e23a",
+    "map_url": "https://www.google.com/maps/place/59.201794,17.619933/&zoom=17"
+  },
+  "C13": {
+    "room_url": "https://www.kth.se/places/room/id/79095ca8-1341-4957-a4b4-650d66246b6b",
+    "map_url": "https://www.google.com/maps/place/59.201794,17.619933/&zoom=17"
+  },
+  "C21": {
+    "room_url": "https://www.kth.se/places/room/id/017bbd73-ecee-407b-890a-f7bebfb442fc",
+    "map_url": "https://www.google.com/maps/place/59.201794,17.619933/&zoom=17"
+  },
+  "C30": {
+    "room_url": "https://www.kth.se/places/room/id/b986794b-b527-4986-ac02-ed6cb59d090e",
+    "map_url": "https://www.google.com/maps/place/59.201794,17.619933/&zoom=17"
+  },
+  "C31": {
+    "room_url": "https://www.kth.se/places/room/id/01750903-cfc5-4670-b6ff-16ddc804a021",
+    "map_url": "https://www.google.com/maps/place/59.201794,17.619933/&zoom=17"
+  },
+  "C32": {
+    "room_url": "https://www.kth.se/places/room/id/e6f3369f-57f7-4aa2-bc73-a6b1707c03da",
+    "map_url": "https://www.google.com/maps/place/59.201794,17.619933/&zoom=17"
+  },
+  "C33": {
+    "room_url": "https://www.kth.se/places/room/id/d15c48e5-c77a-486f-ae73-fe522c4bf743",
+    "map_url": "https://www.google.com/maps/place/59.201794,17.619933/&zoom=17"
+  },
+  "C34": {
+    "room_url": "https://www.kth.se/places/room/id/44d3f44f-25b0-42d9-bb7e-87bc9213b9a8",
+    "map_url": "https://www.google.com/maps/place/59.201794,17.619933/&zoom=17"
+  },
+  "C35": {
+    "room_url": "https://www.kth.se/places/room/id/7aaf1541-cd21-4a33-8a84-edf0e5ab1d36",
+    "map_url": "https://www.google.com/maps/place/59.201794,17.619933/&zoom=17"
+  },
+  "C36": {
+    "room_url": "https://www.kth.se/places/room/id/84329da3-6faa-4ee4-9af5-76721435084b",
+    "map_url": "https://www.google.com/maps/place/59.201794,17.619933/&zoom=17"
+  },
+  "C37": {
+    "room_url": "https://www.kth.se/places/room/id/eafe8f3d-2ab1-4339-9cd1-ba2dcb42e44a",
+    "map_url": "https://www.google.com/maps/place/59.201794,17.619933/&zoom=17"
+  },
+  "C38": {
+    "room_url": "https://www.kth.se/places/room/id/d1d3f15d-4f1a-4e32-a0ce-3e4afb96e630",
+    "map_url": "https://www.google.com/maps/place/59.201794,17.619933/&zoom=17"
+  },
+  "C39": {
+    "room_url": "https://www.kth.se/places/room/id/0503b998-b97d-4cb6-9b4c-cf115add38b5",
+    "map_url": "https://www.google.com/maps/place/59.201794,17.619933/&zoom=17"
+  },
+  "C41": {
+    "room_url": "https://www.kth.se/places/room/id/09588be2-971f-486b-be00-7636c08a50db",
+    "map_url": "https://www.google.com/maps/place/59.201794,17.619933/&zoom=17"
+  },
+  "C42": {
+    "room_url": "https://www.kth.se/places/room/id/0be5405f-e5e9-48f1-a216-70ad3528529e",
+    "map_url": "https://www.google.com/maps/place/59.201794,17.619933/&zoom=17"
+  },
+  "C43": {
+    "room_url": "https://www.kth.se/places/room/id/8f588721-1440-4383-95cc-83d87a1ad7fa",
+    "map_url": "https://www.google.com/maps/place/59.201794,17.619933/&zoom=17"
+  },
+  "C44": {
+    "room_url": "https://www.kth.se/places/room/id/ff77a087-f4e5-4baa-9591-a8e057315e99",
+    "map_url": "https://www.google.com/maps/place/59.201794,17.619933/&zoom=17"
+  },
+  "C45": {
+    "room_url": "https://www.kth.se/places/room/id/721b93a6-6893-4329-977b-8a66af9bb015",
+    "map_url": "https://www.google.com/maps/place/59.201794,17.619933/&zoom=17"
+  },
+  "C46": {
+    "room_url": "https://www.kth.se/places/room/id/69dffb02-5519-4457-bd6d-62cb57e9980c",
+    "map_url": "https://www.google.com/maps/place/59.201794,17.619933/&zoom=17"
+  },
+  "D1": {
+    "room_url": "https://www.kth.se/places/room/id/31c019b9-674b-41ca-aa5b-6b0a2ab0cc68",
+    "map_url": "https://www.google.com/maps/place/59.346807,18.073872/&zoom=17"
+  },
+  "D2": {
+    "room_url": "https://www.kth.se/places/room/id/fc778271-7ea4-4a0e-9ee3-0e5a429c75e3",
+    "map_url": "https://www.google.com/maps/place/59.346807,18.073872/&zoom=17"
+  },
+  "D3": {
+    "room_url": "https://www.kth.se/places/room/id/4e66e1af-3d92-4584-8559-b229d5f1030e",
+    "map_url": "https://www.google.com/maps/place/59.346807,18.073872/&zoom=17"
+  },
+  "D31": {
+    "room_url": "https://www.kth.se/places/room/id/a3031be8-e681-49c0-acc8-c005e0bc0143",
+    "map_url": "https://www.google.com/maps/place/59.346807,18.073872/&zoom=17"
+  },
+  "D32": {
+    "room_url": "https://www.kth.se/places/room/id/563b45b8-47cb-4857-8b54-e69439dbf99a",
+    "map_url": "https://www.google.com/maps/place/59.346807,18.073872/&zoom=17"
+  },
+  "D33": {
+    "room_url": "https://www.kth.se/places/room/id/db23c6e6-e96e-468c-9a89-c6dbaf64e97c",
+    "map_url": "https://www.google.com/maps/place/59.346807,18.073872/&zoom=17"
+  },
+  "D34": {
+    "room_url": "https://www.kth.se/places/room/id/fc3d57ab-e4c9-4c57-98fe-f33cad823615",
+    "map_url": "https://www.google.com/maps/place/59.346807,18.073872/&zoom=17"
+  },
+  "D35": {
+    "room_url": "https://www.kth.se/places/room/id/8a6c61a6-b4e8-44f2-b2ed-ba796d71e767",
+    "map_url": "https://www.google.com/maps/place/59.346807,18.073872/&zoom=17"
+  },
+  "D36": {
+    "room_url": "https://www.kth.se/places/room/id/58b1633e-2019-45f5-bf9d-51d959eb441a",
+    "map_url": "https://www.google.com/maps/place/59.346807,18.073872/&zoom=17"
+  },
+  "D37": {
+    "room_url": "https://www.kth.se/places/room/id/904be5b6-29e7-4388-8983-c8b25dc1b874",
+    "map_url": "https://www.google.com/maps/place/59.346807,18.073872/&zoom=17"
+  },
+  "D41": {
+    "room_url": "https://www.kth.se/places/room/id/b00b0a2d-3c51-4e87-84ef-fd0b8958712f",
+    "map_url": "https://www.google.com/maps/place/59.346807,18.073872/&zoom=17"
+  },
+  "D42": {
+    "room_url": "https://www.kth.se/places/room/id/8582e0be-6a8b-4031-ad0a-6656360faad5",
+    "map_url": "https://www.google.com/maps/place/59.346807,18.073872/&zoom=17"
+  },
+  "E1": {
+    "room_url": "https://www.kth.se/places/room/id/24565f05-ff18-4306-a50b-24be99ced05d",
+    "map_url": "https://www.google.com/maps/place/59.346992,18.072964/&zoom=17"
+  },
+  "E2": {
+    "room_url": "https://www.kth.se/places/room/id/6d755462-55f2-43a3-8312-e2285c572e40",
+    "map_url": "https://www.google.com/maps/place/59.346992,18.072964/&zoom=17"
+  },
+  "E3": {
+    "room_url": "https://www.kth.se/places/room/id/6d0a6f99-d756-4941-97e5-977a0db6c619",
+    "map_url": "https://www.google.com/maps/place/59.346992,18.072964/&zoom=17"
+  },
+  "E31": {
+    "room_url": "https://www.kth.se/places/room/id/f7cc49e8-417a-49cf-ae3a-698913e4bebe",
+    "map_url": "https://www.google.com/maps/place/59.346992,18.072964/&zoom=17"
+  },
+  "E32": {
+    "room_url": "https://www.kth.se/places/room/id/1a87e2f3-ec2b-4703-9647-e3c157dfcd9e",
+    "map_url": "https://www.google.com/maps/place/59.346992,18.072964/&zoom=17"
+  },
+  "E33": {
+    "room_url": "https://www.kth.se/places/room/id/718917f0-d694-451f-97f5-ccd3ebf205b9",
+    "map_url": "https://www.google.com/maps/place/59.346992,18.072964/&zoom=17"
+  },
+  "E34": {
+    "room_url": "https://www.kth.se/places/room/id/686117af-5599-4c64-bbe4-0c57b42a7b2b",
+    "map_url": "https://www.google.com/maps/place/59.346992,18.072964/&zoom=17"
+  },
+  "E35": {
+    "room_url": "https://www.kth.se/places/room/id/d7fa74f9-efc6-48dd-97c3-7361fd2c6c03",
+    "map_url": "https://www.google.com/maps/place/59.346992,18.072964/&zoom=17"
+  },
+  "E36": {
+    "room_url": "https://www.kth.se/places/room/id/3a0a5528-e43c-4f3c-9e6e-85689d6b0ce6",
+    "map_url": "https://www.google.com/maps/place/59.346992,18.072964/&zoom=17"
+  },
+  "E51": {
+    "room_url": "https://www.kth.se/places/room/id/53f622fe-3592-4f0b-97c3-c9a5ac7b4b33",
+    "map_url": "https://www.google.com/maps/place/59.346992,18.072964/&zoom=17"
+  },
+  "E52": {
+    "room_url": "https://www.kth.se/places/room/id/fac962af-eb76-4b02-945f-f2cda762c32c",
+    "map_url": "https://www.google.com/maps/place/59.347978,18.073593/&zoom=17"
+  },
+  "E53": {
+    "room_url": "https://www.kth.se/places/room/id/53c93c44-0c69-4ca7-ad42-09b2ca5823c8",
+    "map_url": "https://www.google.com/maps/place/59.347978,18.073593/&zoom=17"
+  },
+  "F1": {
+    "room_url": "https://www.kth.se/places/room/id/31e731ab-b185-46b4-b0d3-bd2408563a3e",
+    "map_url": "https://www.google.com/maps/place/59.34837,18.074787/&zoom=17"
+  },
+  "F2": {
+    "room_url": "https://www.kth.se/places/room/id/5dc45052-b5ce-4e6c-9ca6-7e22f9eee538",
+    "map_url": "https://www.google.com/maps/place/59.34852,18.0744003/&zoom=17"
+  },
+  "F3": {
+    "room_url": "https://www.kth.se/places/room/id/2b863516-4a75-4c89-94dd-03faf8e9258f",
+    "map_url": "https://www.google.com/maps/place/59.34852,18.0744003/&zoom=17"
+  },
+  "H1": {
+    "room_url": "https://www.kth.se/places/room/id/2d17f88e-20f3-4163-81d4-612bc8e84f04",
+    "map_url": "https://www.google.com/maps/place/59.349531,18.073018/&zoom=17"
+  },
+  "K1": {
+    "room_url": "https://www.kth.se/places/room/id/19814134-e285-49bc-9683-2f5c2edadbcf",
+    "map_url": "https://www.google.com/maps/place/59.350127,18.074595/&zoom=17"
+  },
+  "K2": {
+    "room_url": "https://www.kth.se/places/room/id/46614e9e-c53b-495f-94c2-cf71e934f551",
+    "map_url": "https://www.google.com/maps/place/59.349011,18.07501/&zoom=17"
+  },
+  "K51": {
+    "room_url": "https://www.kth.se/places/room/id/4df10630-351f-4839-9332-521a3becf191",
+    "map_url": "https://www.google.com/maps/place/59.349163,18.07462/&zoom=17"
+  },
+  "K53": {
+    "room_url": "https://www.kth.se/places/room/id/c32316c9-4952-4ed7-afef-d3ba06365ac3",
+    "map_url": "https://www.google.com/maps/place/59.349163,18.07462/&zoom=17"
+  },
+  "M1": {
+    "room_url": "https://www.kth.se/places/room/id/ad02be6d-21e4-480d-9979-d335c6f10875",
+    "map_url": "https://www.google.com/maps/place/59.353649,18.065351/&zoom=17"
+  },
+  "M2": {
+    "room_url": "https://www.kth.se/places/room/id/6e3a06d5-43ed-41e3-8fc1-3f5744130e17",
+    "map_url": "https://www.google.com/maps/place/59.353649,18.065351/&zoom=17"
+  },
+  "M3": {
+    "room_url": "https://www.kth.se/places/room/id/9485bc06-d8dc-4b3a-bf0e-ef7387c98b81",
+    "map_url": "https://www.google.com/maps/place/59.353649,18.065351/&zoom=17"
+  },
+  "M23": {
+    "room_url": "https://www.kth.se/places/room/id/2b098719-4677-433b-aacc-b5f042822eee",
+    "map_url": "https://www.google.com/maps/place/59.353649,18.065351/&zoom=17"
+  },
+  "M24": {
+    "room_url": "https://www.kth.se/places/room/id/d327b64d-7346-4ab1-b296-17ea26ed0944",
+    "map_url": "https://www.google.com/maps/place/59.353649,18.065351/&zoom=17"
+  },
+  "M31": {
+    "room_url": "https://www.kth.se/places/room/id/eb027ec4-a15e-4b1a-b54b-a54e7fc47ed2",
+    "map_url": "https://www.google.com/maps/place/59.353649,18.065351/&zoom=17"
+  },
+  "M32": {
+    "room_url": "https://www.kth.se/places/room/id/58ee7c2d-9b5a-4e62-9784-707bcc57dc04",
+    "map_url": "https://www.google.com/maps/place/59.353649,18.065351/&zoom=17"
+  },
+  "M33": {
+    "room_url": "https://www.kth.se/places/room/id/edbf6e6a-0b0a-4b3b-85aa-b51cff5e7b88",
+    "map_url": "https://www.google.com/maps/place/59.353649,18.065351/&zoom=17"
+  },
+  "M35": {
+    "room_url": "https://www.kth.se/places/room/id/faa519e6-b8ad-47e1-b324-a8185243f47e",
+    "map_url": "https://www.google.com/maps/place/59.353649,18.065351/&zoom=17"
+  },
+  "M36": {
+    "room_url": "https://www.kth.se/places/room/id/f2cb2e67-193c-43ea-a680-07471858ddbc",
+    "map_url": "https://www.google.com/maps/place/59.353649,18.065351/&zoom=17"
+  },
+  "M37": {
+    "room_url": "https://www.kth.se/places/room/id/6f0eb6fd-2cb3-41b2-ba4c-d3cbd683f3d2",
+    "map_url": "https://www.google.com/maps/place/59.35396,18.065093/&zoom=17"
+  },
+  "M38": {
+    "room_url": "https://www.kth.se/places/room/id/368e0b07-4c35-4599-98ba-0f09b6f75aec",
+    "map_url": "https://www.google.com/maps/place/59.35396,18.065093/&zoom=17"
+  },
+  "Q1": {
+    "room_url": "https://www.kth.se/places/room/id/87f255a1-95f0-4932-b38e-16b6e609a8b0",
+    "map_url": "https://www.google.com/maps/place/59.35017,18.06715/&zoom=17"
+  },
+  "Q2": {
+    "room_url": "https://www.kth.se/places/room/id/1d244f3a-c130-4909-98e2-c1590f352b2e",
+    "map_url": "https://www.google.com/maps/place/59.34973,18.0673/&zoom=17"
+  },
+  "Q11": {
+    "room_url": "https://www.kth.se/places/room/id/a0508b51-80ed-47ab-9c7c-bf6d41e54519",
+    "map_url": "https://www.google.com/maps/place/59.350107,18.067007/&zoom=17"
+  },
+  "Q13": {
+    "room_url": "https://www.kth.se/places/room/id/cafabf40-6c56-4a54-9c14-8650a0db6ef1",
+    "map_url": "https://www.google.com/maps/place/59.350107,18.067007/&zoom=17"
+  },
+  "Q15": {
+    "room_url": "https://www.kth.se/places/room/id/cf0b8381-67ed-4195-8083-e3ffa2d0fbc1",
+    "map_url": "https://www.google.com/maps/place/59.350107,18.067007/&zoom=17"
+  },
+  "Q17": {
+    "room_url": "https://www.kth.se/places/room/id/de9d2b74-9983-49d2-a2dd-787372addc18",
+    "map_url": "https://www.google.com/maps/place/59.350107,18.067007/&zoom=17"
+  },
+  "Q21": {
+    "room_url": "https://www.kth.se/places/room/id/62412ddb-72e5-487b-ae36-f5034437b3cb",
+    "map_url": "https://www.google.com/maps/place/59.350144,18.067044/&zoom=17"
+  },
+  "Q22": {
+    "room_url": "https://www.kth.se/places/room/id/a615b51a-875e-4ad6-8fec-b4f4e5931044",
+    "map_url": "https://www.google.com/maps/place/59.350179,18.067079/&zoom=17"
+  },
+  "Q24": {
+    "room_url": "https://www.kth.se/places/room/id/646c819e-9305-4ce8-aa1d-06297c63b205",
+    "map_url": "https://www.google.com/maps/place/59.350178,18.067078/&zoom=17"
+  },
+  "Q26": {
+    "room_url": "https://www.kth.se/places/room/id/7d8520f2-99cf-4ab9-ba91-98f66e573154",
+    "map_url": "https://www.google.com/maps/place/59.35018,18.06708/&zoom=17"
+  },
+  "Q31": {
+    "room_url": "https://www.kth.se/places/room/id/a7fd5d0a-4e13-48d7-a4d9-d929f7a316f0",
+    "map_url": "https://www.google.com/maps/place/59.350236,18.067136/&zoom=17"
+  },
+  "Q33": {
+    "room_url": "https://www.kth.se/places/room/id/7421a544-e4c9-40ac-9fda-b9d9fe0e3f0d",
+    "map_url": "https://www.google.com/maps/place/59.350242,18.067142/&zoom=17"
+  },
+  "Q34": {
+    "room_url": "https://www.kth.se/places/room/id/094867e3-757b-4440-a5b1-35f0b0d01c58",
+    "map_url": "https://www.google.com/maps/place/59.350235,18.067135/&zoom=17"
+  },
+  "Q36": {
+    "room_url": "https://www.kth.se/places/room/id/e3708984-e1fa-4231-bf4d-f1cc5cecdede",
+    "map_url": "https://www.google.com/maps/place/59.350241,18.067141/&zoom=17"
+  },
+  "T1": {
+    "room_url": "https://www.kth.se/places/room/id/a92465c0-2d65-476e-9045-94bfb791d6f2",
+    "map_url": "https://www.google.com/maps/place/59.221338,17.938955/&zoom=17"
+  },
+  "T2": {
+    "room_url": "https://www.kth.se/places/room/id/662f3b3e-0fc4-44c6-8466-b39e44966df9",
+    "map_url": "https://www.google.com/maps/place/59.221338,17.938955/&zoom=17"
+  },
+  "T3": {
+    "room_url": "https://www.kth.se/places/room/id/9c8b2f61-9e9e-4088-a981-842899085cdf",
+    "map_url": "https://www.google.com/maps/place/59.221338,17.938955/&zoom=17"
+  },
+  "T4": {
+    "room_url": "https://www.kth.se/places/room/id/c6dd53c3-b6f6-432e-818a-c61de3169364",
+    "map_url": "https://www.google.com/maps/place/59.221338,17.938955/&zoom=17"
+  },
+  "T5": {
+    "room_url": "https://www.kth.se/places/room/id/db934eeb-0327-4d2a-96ca-c36438c0be0d",
+    "map_url": "https://www.google.com/maps/place/59.221338,17.938955/&zoom=17"
+  },
+  "T6": {
+    "room_url": "https://www.kth.se/places/room/id/8d9a70fc-dce6-43f5-97f3-6573cf9701a8",
+    "map_url": "https://www.google.com/maps/place/59.221338,17.938955/&zoom=17"
+  },
+  "T41": {
+    "room_url": "https://www.kth.se/places/room/id/cc1b38f2-9ccc-4ff0-951c-8946f23f6f18",
+    "map_url": "https://www.google.com/maps/place/59.221338,17.938955/&zoom=17"
+  },
+  "T49": {
+    "room_url": "https://www.kth.se/places/room/id/ad6eac7e-c61e-41c1-bf9f-078ee550029b",
+    "map_url": "https://www.google.com/maps/place/59.349531,18.073018/&zoom=17"
+  },
+  "T51": {
+    "room_url": "https://www.kth.se/places/room/id/29d17550-b3cd-4b30-a3f2-699e6caef6d8",
+    "map_url": "https://www.google.com/maps/place/59.221338,17.938955/&zoom=17"
+  },
+  "T52": {
+    "room_url": "https://www.kth.se/places/room/id/cc29fe70-7ef4-4403-92ed-a73095c83b29",
+    "map_url": "https://www.google.com/maps/place/59.221338,17.938955/&zoom=17"
+  },
+  "T53": {
+    "room_url": "https://www.kth.se/places/room/id/234d3b82-5432-4603-adf3-e28516cd0fd4",
+    "map_url": "https://www.google.com/maps/place/59.221338,17.938955/&zoom=17"
+  },
+  "T54": {
+    "room_url": "https://www.kth.se/places/room/id/f6aacc7e-ab26-47f9-a9dd-9cd692fac925",
+    "map_url": "https://www.google.com/maps/place/59.221338,17.938955/&zoom=17"
+  },
+  "T55": {
+    "room_url": "https://www.kth.se/places/room/id/7daac83d-88f5-4523-bd6d-e208efa91a22",
+    "map_url": "https://www.google.com/maps/place/59.221338,17.938955/&zoom=17"
+  },
+  "T61": {
+    "room_url": "https://www.kth.se/places/room/id/0965ce9d-78db-49b6-b339-78873567c68c",
+    "map_url": "https://www.google.com/maps/place/59.221338,17.938955/&zoom=17"
+  },
+  "T62": {
+    "room_url": "https://www.kth.se/places/room/id/d5d0772a-2143-4d7c-b0f1-77fe09d916e6",
+    "map_url": "https://www.google.com/maps/place/59.221338,17.938955/&zoom=17"
+  },
+  "T63": {
+    "room_url": "https://www.kth.se/places/room/id/d836dc1d-f934-485f-8d72-d44b91f66817",
+    "map_url": "https://www.google.com/maps/place/59.221338,17.938955/&zoom=17"
+  },
+  "T64": {
+    "room_url": "https://www.kth.se/places/room/id/42f62bf8-550e-4ccb-8af9-229a43069b8e",
+    "map_url": "https://www.google.com/maps/place/59.221338,17.938955/&zoom=17"
+  },
+  "T65": {
+    "room_url": "https://www.kth.se/places/room/id/a33fe565-b3ab-4f88-a043-8a567e305aa8",
+    "map_url": "https://www.google.com/maps/place/59.221338,17.938955/&zoom=17"
+  },
+  "T66": {
+    "room_url": "https://www.kth.se/places/room/id/6d00ea3a-f53e-42c5-b2ee-b426272d0aee",
+    "map_url": "https://www.google.com/maps/place/59.221338,17.938955/&zoom=17"
+  },
+  "T67": {
+    "room_url": "https://www.kth.se/places/room/id/e56ba3af-acd4-4db0-9837-3352f0007807",
+    "map_url": "https://www.google.com/maps/place/59.221338,17.938955/&zoom=17"
+  },
+  "T68": {
+    "room_url": "https://www.kth.se/places/room/id/ab5ec74b-275b-4cdd-9ec2-3d234b04fa94",
+    "map_url": "https://www.google.com/maps/place/59.221338,17.938955/&zoom=17"
+  },
+  "U1": {
+    "room_url": "https://www.kth.se/places/room/id/a97c7287-81cb-470d-bd01-2db4da7ca98d",
+    "map_url": "https://www.google.com/maps/place/59.350902,18.070013/&zoom=17"
+  },
+  "U21": {
+    "room_url": "https://www.kth.se/places/room/id/de8a7fa7-90dc-4ae7-ab75-282b6020d8a5",
+    "map_url": "https://www.google.com/maps/place/59.351255,18.06991/&zoom=17"
+  },
+  "U31": {
+    "room_url": "https://www.kth.se/places/room/id/1f421a2a-40ec-4dcc-ab4b-0a39174cb067",
+    "map_url": "https://www.google.com/maps/place/59.350902,18.070013/&zoom=17"
+  },
+  "U41": {
+    "room_url": "https://www.kth.se/places/room/id/bb4faf52-8ff1-40ae-8211-b73a54703b8d",
+    "map_url": "https://www.google.com/maps/place/59.350902,18.070013/&zoom=17"
+  },
+  "U51": {
+    "room_url": "https://www.kth.se/places/room/id/d7857e8e-4729-481f-8aba-9f2c167d1937",
+    "map_url": "https://www.google.com/maps/place/59.350902,18.070013/&zoom=17"
+  },
+  "U61": {
+    "room_url": "https://www.kth.se/places/room/id/b84af048-54a4-4b2e-8060-7659fb3c52db",
+    "map_url": "https://www.google.com/maps/place/59.350902,18.070013/&zoom=17"
+  },
+  "V1": {
+    "room_url": "https://www.kth.se/places/room/id/5b3e2d05-8da8-405e-ac62-7960935363ab",
+    "map_url": "https://www.google.com/maps/place/59.351143,18.071363/&zoom=17"
+  },
+  "V2": {
+    "room_url": "https://www.kth.se/places/room/id/90b43360-caed-4c81-8b35-ac8d6b537571",
+    "map_url": "https://www.google.com/maps/place/59.351143,18.071363/&zoom=17"
+  },
+  "V3": {
+    "room_url": "https://www.kth.se/places/room/id/0e2af584-d1d1-40c8-83b1-e3fdb285dcc5",
+    "map_url": "https://www.google.com/maps/place/59.351143,18.071363/&zoom=17"
+  },
+  "V11": {
+    "room_url": "https://www.kth.se/places/room/id/d3133a70-8732-48dc-bd33-90a9fe47fbb4",
+    "map_url": "https://www.google.com/maps/place/59.351143,18.071363/&zoom=17"
+  },
+  "V12": {
+    "room_url": "https://www.kth.se/places/room/id/8890efb8-9ac9-4d9d-bb64-817d5f0da58c",
+    "map_url": "https://www.google.com/maps/place/59.351143,18.071363/&zoom=17"
+  },
+  "V21": {
+    "room_url": "https://www.kth.se/places/room/id/64fac09c-9569-46fe-87fa-683f35a7433e",
+    "map_url": "https://www.google.com/maps/place/59.351143,18.071363/&zoom=17"
+  },
+  "V22": {
+    "room_url": "https://www.kth.se/places/room/id/51bef3c0-b64f-4fe6-a398-0c46fc57955b",
+    "map_url": "https://www.google.com/maps/place/59.351143,18.071363/&zoom=17"
+  },
+  "V23": {
+    "room_url": "https://www.kth.se/places/room/id/69cd5e43-0aeb-46c2-b4c1-002de6a1ffd8",
+    "map_url": "https://www.google.com/maps/place/59.351143,18.071363/&zoom=17"
+  },
+  "V32": {
+    "room_url": "https://www.kth.se/places/room/id/704eb733-0ce8-4ab0-a6ae-3a96f9af1c73",
+    "map_url": "https://www.google.com/maps/place/59.351143,18.071363/&zoom=17"
+  },
+  "V33": {
+    "room_url": "https://www.kth.se/places/room/id/a229bb4f-812f-4463-b687-ab91b18092c6",
+    "map_url": "https://www.google.com/maps/place/59.351143,18.071363/&zoom=17"
+  },
+  "V34": {
+    "room_url": "https://www.kth.se/places/room/id/6b51d868-b885-4eab-9e88-4a507b5616bf",
+    "map_url": "https://www.google.com/maps/place/59.351143,18.071363/&zoom=17"
+  },
+  "V35": {
+    "room_url": "https://www.kth.se/places/room/id/18d4f5ec-2048-4036-95cd-91bc1ba475a4",
+    "map_url": "https://www.google.com/maps/place/59.351143,18.071363/&zoom=17"
+  },
+  "W25": {
+    "room_url": "https://www.kth.se/places/room/id/e2ad1c02-d665-4849-bc7a-c9bddcb09f72",
+    "map_url": "https://www.google.com/maps/place/59.350698,18.070479/&zoom=17"
+  },
+  "W37": {
+    "room_url": "https://www.kth.se/places/room/id/304da1f4-7a5b-429e-8fd6-af50e4af4dae",
+    "map_url": "https://www.google.com/maps/place/59.350698,18.070479/&zoom=17"
+  },
+  "W38": {
+    "room_url": "https://www.kth.se/places/room/id/e83fd1d2-eeff-4462-aa8d-9fb32ac7a7d3",
+    "map_url": "https://www.google.com/maps/place/59.350698,18.070479/&zoom=17"
+  },
+  "W42": {
+    "room_url": "https://www.kth.se/places/room/id/db545630-41e6-41aa-9920-0211b125ada7",
+    "map_url": "https://www.google.com/maps/place/59.350698,18.070479/&zoom=17"
+  },
+  "W43": {
+    "room_url": "https://www.kth.se/places/room/id/2bc56ea6-2f7f-4785-84ff-91fb05c2875a",
+    "map_url": "https://www.google.com/maps/place/59.350698,18.070479/&zoom=17"
+  },
+  "Z21": {
+    "room_url": "https://www.kth.se/places/room/id/fb8b8ebc-b599-44e4-b114-71774600ad9b",
+    "map_url": null
+  },
+  "Z51": {
+    "room_url": "https://www.kth.se/places/room/id/8ffe9842-c7bf-4b10-9ade-76ca115c0bbc",
+    "map_url": "https://www.google.com/maps/place/59.34621,18.072346/&zoom=17"
+  }
+}
