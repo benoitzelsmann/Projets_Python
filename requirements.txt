@@ -1,0 +1,13 @@
+
+requests
+icalendar
+pytz
+beautifulsoup4
+scipy
+numpy
+matplotlib
+pygame
+imageio
+pynput
+Pillow
+stockfish

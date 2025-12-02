@@ -1,0 +1,15 @@
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Fichiers temporaires Python
+__pycache__/
+*.py[cod]
+
+# Configuration IDE (optionnel, mais souvent mieux de l'ignorer si on bosse en équipe)
+.idea/
+.vscode/
+
+# Fichiers système
+.DS_Store
