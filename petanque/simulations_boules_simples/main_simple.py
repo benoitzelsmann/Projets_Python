@@ -13,7 +13,7 @@ class Jeu(tk.Tk):
         super().__init__()
 
         """definitions des parametres graphiques"""
-        self.images_secondes = 200
+        self.images_secondes = 60
         self.delay = 1 / self.images_secondes
         self.inital_time = time()
 
@@ -42,7 +42,7 @@ class Jeu(tk.Tk):
         #                Boule(self, 300, 500, 0, 20, 'white'),
         #                Boule(self, 300, 600, 0, 20, 'white'),]
 
-        self.boules = [Boule(self, 300, i * 800 // 500, 0, 5, 'white') for i in range(1, 500)]
+        self.boules = [Boule(self, 300, i * 800 // 500, 0, 5, 'white') for i in range(1, 200)]
 
         self.couples_a_tester_comb = combinations([i for i in range(len(self.boules))], 2)
         self.couples_a_tester = [comb for comb in self.couples_a_tester_comb]
